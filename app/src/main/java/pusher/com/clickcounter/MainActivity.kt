@@ -14,9 +14,9 @@ import java.io.IOException
 class MainActivity : AppCompatActivity() {
 
     companion object {
-        const val SERVER_URL = "http://NODE_JS_SERVER_ENDPOINT"
-        const val PUSHER_API_KEY = "PUSHER_API_KEY"
-        const val PUSHER_CLUSTER = "PUSHER_APP_CLUSTER"
+        const val SERVER_URL = "http://10.0.3.2:9999"
+        const val PUSHER_API_KEY = "e686a9066178e8304923"
+        const val PUSHER_CLUSTER = "us2"
         const val CLICK_CHANNEL = "click-channel"
         const val CLICK_EVENT = "click-event"
     }
